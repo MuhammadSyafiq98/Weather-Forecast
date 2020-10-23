@@ -14,21 +14,22 @@
 5. Go to the Open Weather Map website and click:
    API
    Current weather data
-   `http://api.openweathermap.org/data/2.5/weather?q=${address}&units=metric&appid=${process.env.API_KEY}`
-   As u can see in the url, I put units=metric because in can automatically convert it to Celsius.
+   https://openweathermap.org/current
    
-6. Create a new file nama .env in your node-weather folder.
+   As u can see in my code at the url, I put units=metric because in can automatically convert it to Celsius.
+   
+6. Create a new file name .env in your node-weather folder.
 
 7. The .env is to encrypt your API key so that your API key will be secured.
    API_KEY= Your API Key
    
- 8. Open your command prompt and start searching for places you want to know about current weather.
-    Must include in your command :
+8. Open your command prompt and start searching for places you want to know about current weather.
+   Must include in your command :
     
-    Example - node app.js Kuala Lumpur,MY
+   Example - node app.js Kuala Lumpur,MY
     
- 9. Then you will obtain the current weather data from the city you search for.
+9. Then you will obtain the current weather data from the city you search for.
  
- Thank you :)
+Thank you :)
     
     
